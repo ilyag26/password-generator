@@ -49,6 +49,7 @@ func GeneratePass(quantSymbols int, upper bool, lower bool, num bool, symbols bo
 			}
 		}
 	} else {
+		labelMessage.Hidden = true
 		labelError.Hidden = false
 		btnCopy.Hidden = true
 	}
