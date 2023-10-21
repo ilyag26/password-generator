@@ -19,7 +19,7 @@ func main() {
 	num := 20
 	myApp := app.New()
 	window := myApp.NewWindow("Text Generator")
-	imageLogo := canvas.NewImageFromFile("src/logo.png")
+	imageLogo := canvas.NewImageFromFile("pkg/src/logo.png")
 	//label := widget.NewLabel("Generate Strong Password -- IMAGE HERE")
 	label2 := widget.NewLabel("Settings:")
 	labeLength := widget.NewLabel("Length: " + strconv.Itoa(num))
